@@ -1,0 +1,381 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 900
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.red-hat-text-<uniquifier> {
+  font-family: "Red Hat Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+} */
+
+
+
+
+
+
+.body{
+    font-family: "Red Hat Text", sans-serif;
+}
+/*  nav bar */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-color: #efefef; 
+}
+.navbar{ background-color: #efefef;
+    
+}
+.navbar li {
+    float: left;
+    list-style: none ;
+    margin: 10px 10px;
+    
+    
+    
+}
+.navbar li a{
+   
+    text-decoration: none;
+    padding: 3px 30px;
+    color: #000f36;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 31px;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: bold;
+    
+}
+.navbar ul{
+    padding-left: 30%;
+}
+.navbar li a:hover{
+    color: #2ca438;
+    border-top: solid;
+    border-top-color: #2ca438 ;
+    border-top-width: 20x;
+    transition: 0.5ms;
+}
+
+
+.mybtn{
+    padding: 10px 30px;
+ border-radius: 30px;
+ border: none;
+ background-color: #2CA438;
+ color: white;
+ font-weight: 500;
+ font-size: 19px;
+ line-height: 31px;
+ font-family: "Red Hat Text", sans-serif;
+ font-weight: bold;
+}
+.mybtn:hover{ 
+    
+background-color: #000F36;
+
+}
+
+
+
+
+/* Hide the checkbox */
+.menu-toggle input {
+    display: none;
+}
+
+/* Style for the toggle button */
+.menu-toggle-btn {
+    cursor: pointer;
+    padding: 10px;
+    display: block;
+}
+
+.menu-toggle-btn span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+ 
+/* main section start */
+.sworkout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+.workout{
+    font-weight:600 !important;
+    font-size: 93px;
+    line-height: 93px;
+    color: #000F36;
+    font-family: "Red Hat Text", sans-serif;
+    text-align: left;
+   
+}
+.lorem{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000F36;
+    font-family: "Red Hat Text", sans-serif;
+    text-align: left;
+}
+.image1{
+  
+  max-width: 100%;
+  width: 100%;
+}
+
+/* main section end */
+
+/* Trainig section */
+.image2{
+   max-width: 100%;
+   padding-right: 1%;
+   width: 100%;
+    
+
+}
+.strainig{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.trainig{
+    font-weight:600;
+    font-size: 93px;
+    line-height: 90px;
+    color: #000F36;
+    font-family: "Red Hat Text", sans-serif;
+  
+}
+.lorem2{
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000F36;
+    font-family: "Red Hat Text", sans-serif;
+    
+}
+.read{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000F36;
+    text-decoration: underline;
+    text-decoration-color:#2CA438 ;
+    font-family: "Red Hat Text", sans-serif;
+}
+.read:hover{
+    color: #2CA438;
+}
+/* end training css */
+ 
+
+/* section STRENGTH */
+.image3{
+    max-width: 100%;
+    padding-left: 90px;
+    width: 100%;
+
+}
+
+/* section STRENGTH end */
+
+
+/* trainig now section  */
+.section1{ 
+    background-color: #000F36;
+    justify-content: center;
+    align-items: center;
+}
+.section1 :hover{
+    background-color: #2CA438;
+}
+.now{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: #ffffff;
+  font-weight: 300px;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 31%;
+  text-align: center;
+  font-family: "Red Hat Text", sans-serif;
+
+}
+/* training now end section */
+ 
+/* about meeting section css */
+.about{
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 65px;
+    color: #000F36;
+    font-family: "Red Hat Text", sans-serif;
+   
+}
+.div1{
+    border-bottom: solid;
+    border-bottom-width:6px ;
+    border-bottom-color: #efefef ;
+}
+.aboutp{ 
+  font-weight: 400;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 31px;
+  font-family: "Red Hat Text", sans-serif;
+  
+}
+ /* about metting section end  */
+
+ /* <!-- performance section --> */
+ .image4{
+    max-width: 100%;
+    padding-right: 10%;
+    width: 100%;
+ }
+ .sperform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .perform{
+    color: rgb(0, 15, 54);
+    font-weight: 700;
+    font-size: 54px;
+    font-family: "Red Hat Text", sans-serif;
+
+ }
+ .data{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 31px;
+    color: #2ca438;
+    font-family: "Red Hat Text", sans-serif;
+ }
+ .lorem5{  font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color:#000f36;
+    font-family: "Red Hat Text", sans-serif;
+
+ }
+
+ /* end performance section */
+
+ /* strength Section */
+ .strength{color:#2CA438;
+    font-weight: 700;
+    font-size: 54px;
+    font-family: "Red Hat Text", sans-serif;
+ }
+ .read2{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #2CA438;
+    text-decoration: underline;
+    text-decoration-color:#2CA438;
+    padding-top: 5%;
+    font-family: "Red Hat Text", sans-serif;
+}
+.read2:hover{
+    color: #000F36;
+}
+/* strength section end */
+ /* plan section */
+.divp{
+    border-bottom: solid;
+    border-bottom-color: #ffffff;
+    border-bottom-width:6px ;
+}
+.plan { font-weight: 600;
+    font-size: 54px;
+    line-height: 65px;
+color: #000f36;
+font-family: "Red Hat Text", sans-serif;
+}
+ .days{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000F36;
+    line-height: 31px;
+    font-family: "Red Hat Text", sans-serif;
+ }
+ .timing{
+    padding-top: 1rem;
+    font-weight:400 ;
+    font-size:24px ;
+    line-height: 31px;
+    font-family: "Red Hat Text", sans-serif;
+ }
+/* plan CSS end */
+.wantto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hjoinus{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 54px;
+    color: #000F36;
+    font-family: "Red Hat Text", sans-serif;
+}
+.pjoin{
+    font-weight:400 ;
+    font-size:24px ;
+    line-height: 31px;
+    color: #000F36;
+    font-family: "Red Hat Text", sans-serif;
+}
+ .googlemap{
+    height: 450px;
+    width: 740px;
+ }
+
+
+ /* footr section */
+ .footerdiv{
+    border-bottom: solid;
+    border-bottom-width: 6%;
+    border-bottom-color:#333f5e;
+ }
+ .adrees{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 31px;
+    font-family: "Red Hat Text", sans-serif;
+ }
+ .links1{
+    font-weight: 300;
+    font-size: 54px;
+    line-height: 65px;
+    color: #ffffff;
+    font-family: "Red Hat Text", sans-serif;
+ }
+.links1:hover{
+    color: #2CA438;
+ }
+
+
+ 
