@@ -173,7 +173,7 @@
     line-height: 33px;
 color: #000f36;
 font-family: "Red Hat Text", sans-serif;
-align-items: center;
+   text-align: center;
 
 }
  .days{
@@ -206,6 +206,7 @@ align-items: center;
     color: #000F36;
     font-family: "Red Hat Text", sans-serif;
     text-align: center;
+    padding-top: 5%;
 }
 .pjoin{
     font-weight:400 ;
@@ -223,6 +224,8 @@ align-items: center;
 
  /* footr section */
  .footerdiv{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     border-bottom: solid;
     border-bottom-width: 6%;
     border-bottom-color:#333f5e;
@@ -230,18 +233,22 @@ align-items: center;
  .adrees{
     color: #ffffff;
     font-weight: 300;
-    font-size: 24px;
-    line-height: 31px;
+    font-size: 19px;
+    line-height: 25px;
     font-family: "Red Hat Text", sans-serif;
     text-align: center;
  }
  .links1{
+    padding-top: 5%;
     font-weight: 300;
-    font-size: 54px;
-    line-height: 65px;
+    font-size: 27px;
+    line-height: 33px;
     color: #ffffff;
     font-family: "Red Hat Text", sans-serif;
     text-align: center;
+ }
+ .link4{
+    padding-top: 20%;
  }
 .face:hover{
     color: #2CA438;
