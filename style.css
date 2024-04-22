@@ -105,7 +105,7 @@ background-color: #000F36;
 }
 
 /* Style for the toggle button */
-/* .menu-toggle-btn {
+.menu-toggle-btn {
     cursor: pointer;
     padding: 10px;
     display: block;
@@ -118,7 +118,7 @@ background-color: #000F36;
     background-color: #000;
     margin-bottom: 5px;
 }
- */
+
 
 
 
@@ -128,7 +128,7 @@ background-color: #000F36;
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
+  
     
 
     
@@ -140,7 +140,7 @@ background-color: #000F36;
     color: #000F36;
     font-family: "Red Hat Text", sans-serif;
     text-align: left;
-   
+   padding-right: 50%;
     text-align: left;
    
 }
@@ -151,6 +151,7 @@ background-color: #000F36;
     color: #000F36;
     font-family: "Red Hat Text", sans-serif;
     text-align: left;
+    padding-right: 20%;
     
 }
 /* .image1{
@@ -173,6 +174,7 @@ background-color: #000F36;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 
 }
 .trainig{
@@ -180,8 +182,9 @@ background-color: #000F36;
     font-size: 93px;
     line-height: 90px;
     color: #000F36;
-    font-family: "Red Hat Text", sans-serif;
-    padding-left: 5%;
+    font-family: "Red HatText", sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
   
 }
 .lorem2{
@@ -190,7 +193,8 @@ background-color: #000F36;
     line-height: 31px;
     color: #000F36;
     font-family: "Red Hat Text", sans-serif;
-    padding-left: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     
 }
 .read{
@@ -201,7 +205,7 @@ background-color: #000F36;
     text-decoration: underline;
     text-decoration-color:#2CA438 ;
     font-family: "Red Hat Text", sans-serif;
-    padding-left: 5%;
+    padding-left: 10%;
     padding-top: 10%;
 }
 .read:hover{
@@ -213,7 +217,7 @@ background-color: #000F36;
 /* section STRENGTH */
 .image3{
     max-width: 100%;
-  
+
     width: 100%;
 
 }
