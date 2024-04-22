@@ -26,14 +26,12 @@
     position: fixed;
     top: 0;
     width: 100%;
-   
     z-index: 1000; 
     background-color: #efefef; 
     justify-content: center;
 }
-.navbar{ background-color: #efefef;
-    
-}
+
+
 .nav-link {
     margin: .4em .4em;}
 /* .navbar li {
@@ -70,8 +68,16 @@
     border-top-width: 20x;
     transition: 0.5ms;
 }
+.dropdown-menu.show{
+    background-color: #efefef;
+    
+    width: 210px;
+    border: 0;
 
-
+}
+.navbar-toggler{
+    background-color: #000F36;
+}
 .mybtn{
     padding: 15px 52px;
  border-radius: 50px;
