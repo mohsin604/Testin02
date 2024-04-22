@@ -19,32 +19,36 @@
 
 .body{
     font-family: "Red Hat Text", sans-serif;
-   padding: 0px;
+   
 }
 /*  nav bar */
 .header {
     position: fixed;
     top: 0;
     width: 100%;
+   
     z-index: 1000; 
     background-color: #efefef; 
+    justify-content: center;
 }
 .navbar{ background-color: #efefef;
     
 }
-.navbar li {
+.nav-link {
+    margin: .4em 1.6em;}
+/* .navbar li {
     float: left;
     list-style: none ;
     margin: 10px 10px;
     
     
     
-}
+} */
 .navbar li a{
    
     text-decoration: none;
-    padding: 3px 30px;
-    color:#010101;
+    padding: 5% 30px;
+    color: #000f36;
     font-size: 19px;
     font-weight: 500;
     line-height: 31px;
@@ -53,7 +57,7 @@
     
 }
 .navbar ul{
-    padding-left: 30%;
+ justify-content: center;
 }
 .navbar li a:hover{
     color: #2ca438;
@@ -65,8 +69,8 @@
 
 
 .mybtn{
-    padding: 10px 30px;
- border-radius: 30px;
+    padding: 15px 52px;
+ border-radius: 50px;
  border: none;
  background-color: #2CA438;
  color: white;
@@ -91,7 +95,7 @@ background-color: #000F36;
 }
 
 /* Style for the toggle button */
-.menu-toggle-btn {
+/* .menu-toggle-btn {
     cursor: pointer;
     padding: 10px;
     display: block;
@@ -104,9 +108,7 @@ background-color: #000F36;
     background-color: #000;
     margin-bottom: 5px;
 }
-
-
-
+ */
 
 
 
@@ -116,7 +118,7 @@ background-color: #000F36;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: justify;
+   
     
 
     
@@ -128,7 +130,7 @@ background-color: #000F36;
     color: #000F36;
     font-family: "Red Hat Text", sans-serif;
     text-align: left;
-    padding-left: 5%;
+   
     text-align: left;
    
 }
@@ -139,7 +141,7 @@ background-color: #000F36;
     color: #000F36;
     font-family: "Red Hat Text", sans-serif;
     text-align: left;
-    padding-left: 5%;
+    
 }
 /* .image1{
   
@@ -217,10 +219,11 @@ background-color: #000F36;
 }
 .section1 :hover{
     background-color: #2CA438;
+   
 }
 .now{
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     color: #ffffff;
   font-weight: 300px;
   font-size: 24px;
@@ -231,7 +234,11 @@ background-color: #000F36;
 
 }
 /* training now end section */
- 
+ .main2{
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+ }
 /* about meeting section css */
 .about{
     font-size: 54px;
@@ -250,6 +257,7 @@ background-color: #000F36;
   font-weight: 400;
   font-size: 24px;
   font-style: normal;
+  color: #000F36;
   line-height: 31px;
   font-family: "Red Hat Text", sans-serif;
   
@@ -257,18 +265,14 @@ background-color: #000F36;
  /* about metting section end  */
 
  /* <!-- performance section --> */
- .image4{
-    max-width: 100%;
-    padding-right: 10%;
-    width: 100%;
- }
+
  .sperform{
     display: flex;
     flex-direction: column;
     justify-content: center;
  }
  .perform{
-    color: rgb(0, 15, 54);
+    color:#000f36;
     font-weight: 700;
     font-size: 54px;
     font-family: "Red Hat Text", sans-serif;
@@ -316,12 +320,14 @@ background-color: #000F36;
     border-bottom: solid;
     border-bottom-color: #ffffff;
     border-bottom-width:6px ;
+   
 }
 .plan { font-weight: 600;
     font-size: 54px;
     line-height: 65px;
 color: #000f36;
 font-family: "Red Hat Text", sans-serif;
+
 }
  .days{
     font-weight: 600;
@@ -395,85 +401,3 @@ font-family: "Red Hat Text", sans-serif;
 
 
 
-/* Responsive css */
-
- @media (max-width: 768px) {
-
-     nb j.b
-    .navbar ul {
-        padding-left: 0; /* Adjust the padding for smaller screens */
-    }
-
-    .navbar li {
-        float: none; /* Make the navbar items stack vertically */
-        margin: 10px 0; /* Adjust margin for stacking */
-        text-align: center; /* Center align navbar items */
-    }
-
-    .mybtn {
-        margin-top: 20px; /* Adjust margin for the button */
-    }
-
-    .sworkout,
-    .strainig,
-    .sperform {
-        text-align: center; /* Center align content in these sections */
-    }
-
-    .workout,
-    .trainig,
-    .perform,
-    .strength,
-    .days {
-        font-size: 40px; /* Decrease font size for better readability on smaller screens */
-    }
-
-    .image1,
-    .image2,
-    .image3,
-    .image4 {
-        width: 100%; /* Make images responsive */
-        height: auto; /* Maintain aspect ratio */
-    }
-
-    .googlemap {
-        width: 100%; /* Make Google map responsive */
-        height: 300px; /* Adjust height as needed */
-    }
-}
-
-/* For screens smaller than 576px (extra small devices) */
-@media (max-width: 576px) {
-    .navbar ul {
-        padding-left: 0; /* Adjust the padding for smaller screens */
-    }
-
-    .navbar li {
-        float: none; /* Make the navbar items stack vertically */
-        margin: 10px 0; /* Adjust margin for stacking */
-        text-align: center; /* Center align navbar items */
-    }
-
-    .mybtn {
-        margin-top: 20px; /* Adjust margin for the button */
-    }
-
-    .sworkout,
-    .strainig,
-    .sperform {
-        text-align: center; /* Center align content in these sections */
-    }
-
-    .workout,
-    .trainig,
-    .perform,
-    .strength,
-    .days {
-        font-size: 32px; /* Further decrease font size for extra small screens */
-    }
-
-    .googlemap {
-        width: 100%; /* Make Google map responsive */
-        height: 250px; /* Adjust height as needed */
-    }
-}
