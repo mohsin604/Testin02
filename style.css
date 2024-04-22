@@ -35,7 +35,7 @@
     
 }
 .nav-link {
-    margin: .4em 1.6em;}
+    margin: .4em .4em;}
 /* .navbar li {
     float: left;
     list-style: none ;
@@ -44,21 +44,25 @@
     
     
 } */
+
+.navbar ul{
+    padding: 20px 20px;
+   }
+     
 .navbar li a{
    
     text-decoration: none;
-    padding: 5% 30px;
+    padding: 5%;
     color: #000f36;
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 31px;
     font-family: "Red Hat Text", sans-serif;
   
     
 }
-.navbar ul{
- justify-content: center;
-}
+
+
 .navbar li a:hover{
     color: #2ca438;
     border-top: solid;
