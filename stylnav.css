@@ -4,8 +4,12 @@
   }
 
   nav{
-    background-color: white;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    background-color:#EFEFEF;
+    /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1); */
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 120px;
   }
   nav ul{
     width: 100%;
@@ -13,11 +17,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 20px;
+    padding: 10px 20px;
   }
-  /* nav li{
+  nav li{
     height: 100px;
-  } */
+  }
   nav  a{
     height: 100%;
     padding: 0 30px;
@@ -35,6 +39,7 @@
     border-top: solid;
     border-top-color: #2ca438 ;
     border-top-width: 10x;
+    text-decoration: none;
     transition: 0.5ms;
     /* padding: 5%; */
 }
@@ -55,6 +60,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    z-index: 1;
   }
   .sidebar li{
     width: 100%;
@@ -86,6 +92,14 @@ background-color: #000F36;
 
 }
   @media(max-width: 800px){
+    nav{
+        background-color:#EFEFEF;
+        /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1); */
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        height: 35px;
+      }
     .hideOnMobile{
       display: none;
     }
@@ -99,11 +113,15 @@ background-color: #000F36;
         justify-content: flex-end;
         align-items: center;
         text-align: center;
+        padding: 20px 0;
       }
       nav li:first-child{
         margin-right: auto;
       }
-      nav  a{
+      .menu-button {
+        height: 0px;
+      }
+      .toglmenu{
         height: 100%;
         padding: 0 30px;
         text-decoration: none;
@@ -138,6 +156,9 @@ background-color: #000F36;
         
     background-color: #000F36;
     
+    }
+    .btn1{
+        color: #000F36;
     }
 }
  
