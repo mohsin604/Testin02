@@ -20,72 +20,75 @@
     rel="stylesheet">
 
 
-<body>
+<body class="m-0 p-0">
 
     <!-- header Section -->
-    <div class="header">
-        <nav>
-            <!-- display only small screen -->
-            <ul class="sidebar">
-              <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
-             
-              <li class="toglmenu"><a href="#">Home</a></li>
-              <li class="toglmenu demo-dev1"><a href="#"> Live Demo</a>
-                <div class="submenu demo-dev">
-                  <ul>
-                    <li><a href="" class="textsub">Performance GYM</a></li>
-                    <li><a href="" class="textsub"> WorkOut Metting </a></li>
-                  </ul>
-                </div>
-              
-              </li>
-              <li class="toglmenu demo-dev1"><a href="#"> Live Demo</a>
-                <div class="submenu demo-dev">
-                    <ul>
+    <div class="container-fluid m-0 p-0">
+        <div class="header">
+            <nav>
+                <!-- display only small screen -->
+                <ul class="sidebar">
+                  <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+                 
+                  <li class="toglmenu"><a href="#">Home</a></li>
+                  <li class="toglmenu demo-dev1"><a href="#"> Live Demo</a>
+                    <div class="submenu demo-dev">
+                      <ul>
+                        <li><a href="" class="textsub">Performance GYM</a></li>
+                        <li><a href="" class="textsub"> WorkOut Metting </a></li>
+                      </ul>
+                    </div>
+                  
+                  </li>
+                  <li class="toglmenu demo-dev1"><a href="#"> Live Demo</a>
+                    <div class="submenu demo-dev">
+                        <ul>
+                            <li ><a href="" class="textsub">Headers / Features / Info</a></li>
+                            <li><a href="" class="textsub">Content/ Testimonilas / Video</a></li>
+                            <li><a href="" class="textsub">Maps / Forms / Footers</a></li>
+                          </ul>
+                    </div>
+                  
+                  </li>
+                  <button class="mybtn"> Buy Now </button>
+                </ul>
+    
+                <!-- display only desktop -->
+                <ul>
+                  <li class="hideOnMobile"><a href="#">Home</a></li>
+                  <li class="hideOnMobile demo-dev1"><a href="#">Live Demo</a>
+                    <div class="submenu demo-dev">
+                      <ul>
+                        <li><a href="" class="textsub">Performance GYM</a></li>
+                        <li><a href="" class="textsub"> WorkOut Metting </a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  
+                  <li class="hideOnMobile demo-dev1"><a href="#">Live Demo</a>
+                    <div class="submenu demo-dev">
+                      <ul>
                         <li ><a href="" class="textsub">Headers / Features / Info</a></li>
                         <li><a href="" class="textsub">Content/ Testimonilas / Video</a></li>
                         <li><a href="" class="textsub">Maps / Forms / Footers</a></li>
                       </ul>
-                </div>
-              
-              </li>
-              <button class="mybtn"> Buy Now </button>
-            </ul>
-
-            <!-- display only desktop -->
-            <ul>
-              <li class="hideOnMobile"><a href="#">Home</a></li>
-              <li class="hideOnMobile demo-dev1"><a href="#">Live Demo</a>
-                <div class="submenu demo-dev">
-                  <ul>
-                    <li><a href="" class="textsub">Performance GYM</a></li>
-                    <li><a href="" class="textsub"> WorkOut Metting </a></li>
-                  </ul>
-                </div>
-              </li>
-              
-              <li class="hideOnMobile demo-dev1"><a href="#">Live Demo</a>
-                <div class="submenu demo-dev">
-                  <ul>
-                    <li ><a href="" class="textsub">Headers / Features / Info</a></li>
-                    <li><a href="" class="textsub">Content/ Testimonilas / Video</a></li>
-                    <li><a href="" class="textsub">Maps / Forms / Footers</a></li>
-                  </ul>
-                </div>
-              </li>
-              <button class="mybtn hideOnMobile"> Buy Now </button>
-              <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
-            </ul>
-          </nav>
-        
-         </div>
+                    </div>
+                  </li>
+                  <button class="mybtn hideOnMobile"> Buy Now </button>
+                  <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+                </ul>
+              </nav>
+            
+             </div>
+    </div>
+    
 
     <!-- end header section -->
 
     <!-- Main  section -->
     <section>
-        <div class="container-fluid p-0 ">
-            <div class="row m-0" style="background-color: #EFEFEF; padding-top: 5%;">
+        <div class="container-fluid  p-0 mt-5 ">
+            <div class="row m-0 temperary" style="background-color: #EFEFEF; padding-top: 5%;">
                 <div class="col-md-6 sworkout ">
                     <h1 class="workout">Work Out Meeting</h1>
                     <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque congue
