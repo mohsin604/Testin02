@@ -1,13 +1,305 @@
-/* Responsive css */
-@media (min-width: 360px) and (max-width: 767px) {
+
+@media (max-width: 1280px) {
+  /* Responsive css */
+ 
+  .sworkout{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   
+  
+  padding-top: 5%;
+  padding-bottom: 5%;
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+}
+.workout{
+  font-weight:600;
+  font-size: 31px;
+  line-height: 31px;
+  color: #000F36;
+  font-family: "Red Hat Text", sans-serif;
+  text-align: center;
+
+padding-bottom: 1rem;
+padding-right: 0;
+
+}
+.lorem{
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 25px;
+  color: #000F36;
+  font-family: "Red Hat Text", sans-serif;
+  text-align: center;
+  padding-right: 0;
+ 
+}
+
+
+/* Trainig section */
+
+.strainig{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 1rem;
+
+}
+.trainig{
+font-weight:600;
+font-size: 31px;
+line-height: 31px;
+color: #000F36;
+font-family: "Red Hat Text", sans-serif;
+text-align: center;
+/* padding-top: 15%; */
+padding-bottom: 1rem;
+padding-left: 0;
+padding-right: 0;
+
+}
+.lorem2{
+font-weight: 400;
+font-size: 19px;
+line-height: 25px;
+color: #000F36;
+font-family: "Red Hat Text", sans-serif;
+text-align: center;
+padding-bottom: 1.5rem;
+padding-left: 0;
+padding-right: 0;
+}
+.read{
+font-weight: 400;
+font-size: 19px;
+line-height: 25px;
+color: #000F36;
+text-decoration: underline;
+text-decoration-color:#2CA438 ;
+font-family: "Red Hat Text", sans-serif;
+text-align: center;
+padding-left: 0;
+padding-right: 0;
+}
+.read:hover{
+color: #2CA438;
+}
+/* end training css */ 
+.main2{
+padding: 0;
+}
+/* about meeting section css */
+.about{
+font-size: 27px;
+font-weight: 600;
+line-height: 33px;
+color: #000F36;
+font-family: "Red Hat Text", sans-serif;
+text-align: center;
+
+}
+
+.div1{
+border-bottom: solid;
+border-bottom-width:6px ;
+border-bottom-color: #efefef ;
+}
+.aboutp{ 
+font-weight: 400;
+font-size: 19px;
+line-height: 25px;
+color: #000F36;
+font-family: "Red Hat Text", sans-serif;
+text-align: center;
+padding-top: 2rem;
+padding-bottom: 5rem;
+
+}
+/* about metting section end  */
+
+/* <!-- performance section --> */
+
+.sperform{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.perform{
+color:#000f36;
+font-weight: 700;
+font-size: 27px;
+line-height: 33px;
+font-family: "Red Hat Text", sans-serif;
+text-align: center;
+
+}
+.data{
+font-weight: 300;
+font-size: 24px;
+line-height: 31px;
+color: #2ca438;
+font-family: "Red Hat Text", sans-serif;
+text-align: center;
+
+}
+.lorem5{  font-weight: 400;
+font-size: 19px;
+line-height: 25px;
+color:#000f36;
+font-family: "Red Hat Text", sans-serif;
+text-align: center;
+}
+.image4{
+padding-bottom: 2rem;
+}
+/* end performance section */
+/* strength Section */
+.strength{color:#2CA438;
+font-weight: 700;
+font-size: 19px;
+line-height: 25px;
+font-family: "Red Hat Text", sans-serif;
+text-align: center;
+}
+.read2{
+font-weight: 400;
+font-size: 27px;
+line-height: 33px;
+color: #2CA438;
+text-decoration: underline;
+text-decoration-color:#2CA438;
+padding-top: 5%;
+font-family: "Red Hat Text", sans-serif;
+text-align: center;
+padding-bottom: 3rem;
+}
+.read2:hover{
+color: #000F36;
+}
+/* strength section end */
+
+/* plan section */
+.divp{
+border-bottom: solid;
+border-bottom-color: #ffffff;
+border-bottom-width:6px ;
+
+}
+.plan { font-weight: 600;
+font-size: 27px;
+line-height: 33px;
+color: #000f36;
+font-family: "Red Hat Text", sans-serif;
+text-align: center;
+
+}
+.days{
+font-weight: 600;
+font-size: 19px;
+color: #000F36;
+line-height: 25px;
+font-family: "Red Hat Text", sans-serif;
+text-align: center;
+}
+.timing{
+padding-top: 1rem;
+font-weight:400 ;
+font-size:19px ;
+line-height: 25px;
+font-family: "Red Hat Text", sans-serif;
+text-align: center;
+}
+/* plan CSS end */
+
+.wantto{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.hjoinus{
+font-weight: 700;
+font-size: 27px;
+line-height: 33px;
+color: #000F36;
+font-family: "Red Hat Text", sans-serif;
+text-align: center;
+padding-top: 5%;
+}
+.pjoin{
+font-weight:400 ;
+font-size:19px ;
+line-height: 25px;
+color: #000F36;
+font-family: "Red Hat Text", sans-serif;
+text-align: center;
+}
+.googlemap{
+height: 400px;
+width: 100%;
+}
+
+
+/* footr section */
+.footerdiv{
+padding-top: 5rem;
+padding-bottom: 5rem;
+border-bottom: solid;
+border-bottom-width: 6%;
+border-bottom-color:#333f5e;
+}
+.adrees{
+color: #ffffff;
+font-weight: 300;
+font-size: 19px;
+line-height: 25px;
+font-family: "Red Hat Text", sans-serif;
+text-align: center;
+}
+.links1{
+padding-top: 5%;
+font-weight: 300;
+font-size: 27px;
+line-height: 33px;
+color: #ffffff;
+font-family: "Red Hat Text", sans-serif;
+text-align: center;
+}
+.link4{
+padding-top: 20%;
+}
+.face:hover{
+color: #2CA438;
+}
+.insta:hover{
+color: #2CA438;
+}
+.youtube:hover{
+color: #2CA438;
+} 
+
+}/* Responsive css */
+
+
+
+
+@media (min-width: 360px) and (max-width: 768px) {
     .sworkout{
     display: flex;
     flex-direction: column;
     justify-content: center;   
-    order: 2;
+   order: 2;
     padding-top: 5%;
     padding-bottom: 5%;
 }
+.image1{
+  padding-top: 10%;
+}
+.allsection{
+  flex-wrap: wrap;
+  flex: 0 0 100%;
+    max-width: 100%;
+}
+
 .workout{
     font-weight:600;
     font-size: 31px;
@@ -15,7 +307,7 @@
     color: #000F36;
     font-family: "Red Hat Text", sans-serif;
     text-align: center;
-  /* padding-top: 15%; */
+ 
   padding-bottom: 1rem;
   padding-right: 0;
 
@@ -31,14 +323,7 @@
    
 }
 
-.navbar.navbar-expand-lg.navbar-light {
-    margin: 0 0 0 auto;
-    position: inherit;
-}
-.collapse.show {
-    display: block;
-    text-align: center;
-  }
+
 /* Trainig section */
 
 .strainig{
