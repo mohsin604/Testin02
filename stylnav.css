@@ -72,33 +72,9 @@
     display: none;
   }
 
-  /* DropDown menu */
-  .submenu {
-    display: none;
-    position: absolute;
-    
-   
-    padding: 10px;
-    z-index: 1;
-  }
-  nav ul li a :hover .submenu {
-    display: block;
-    
-  }
+  
+  
 
- 
-  .submenu{
-    display: none;
-  }
-  nav li a:hover .submenu{
-    display: block;
-    position: absolute;
-    background-color: #EFEFEF;
-    margin-top: 15px;
-    margin-left: -15px;
-
-
-}
 .mybtn{
     padding: 15px 52px;
  border-radius: 50px;
@@ -116,9 +92,70 @@
 background-color: #000F36;
 }
 
+/* Dropdown */
+.submenu {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    z-index: 1;
+  }
+  .submenu .subtext{
+    font-weight: 700;
+  }
+.hideOnMobile.demo-dev1:hover demo-dev {
+    display: block;
+  }
+  .submenu.demo-dev {
+  }
+  .hideOnMobile.demo-dev1:hover .submenu.demo-dev {
+    display: block;
+    padding: 0px;
+    background-color:#EFEFEF;
+    
+  }
+  .hideOnMobile.demo-dev1:hover .submenu.demo-dev.a {
+  color: #EFEFEF;
+    
+  }
+  .submenu.demo-dev ul {
+    flex-direction: column;
+    padding: 0px;
+  }
+  
 
 
 
+  .submenu {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    z-index: 1;
+  }
+ 
+    .toglmenu.demo-dev1:hover demo-dev {
+    display: block;
+  }
+  .submenu.demo-dev {
+  }
+  .toglmenu.demo-dev1:hover .submenu.demo-dev {
+    display: block;
+    padding: 0px;
+    background-color:#EFEFEF;
+    height: 50%;
+  }
+  .toglmenu.demo-dev1:hover .submenu.demo-dev.a {
+  color: #EFEFEF;
+    
+  }
+  .submenu.demo-dev ul {
+    flex-direction: column;
+    padding: 0px;
+  }
+ 
+ .textsub:hover{
+    color: #2ca438;
+    border-top: 0;
+ }
 
   @media(max-width: 960px){
     nav{
@@ -150,7 +187,7 @@ background-color: #000F36;
       .menu-button {
         height: 0px;
       }
-      .toglmenu{
+      /* .toglmenu{
         height: 100%;
         padding: 0 30px;
         text-decoration: none;
@@ -159,10 +196,10 @@ background-color: #000F36;
         color: #000f36;
         font-size: 20px;
         font-weight: 500;
-        line-height: 75px;
+        line-height: 5px;
         font-family: "Red Hat Text", sans-serif;
         
-      }
+      } */
     
     nav li a:hover{
       color: #000f36;
