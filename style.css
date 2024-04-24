@@ -144,11 +144,11 @@
 
 }
 /* training now end section */
- /* .main2{
+ .main2{
     padding-left: 7%;
     padding-right: 7%;
     padding-top: 5%;
- } */
+ }
  
 /* about meeting section css */
 .about{
@@ -157,12 +157,19 @@
     line-height: 65px;
     color: #000F36;
     font-family:"Red Hat Text",sans-serif;
+    
+  
    
+}
+.aboutus{
+    padding-top: 5%;
 }
 .div1{
     border-bottom: solid;
     border-bottom-width:6px ;
     border-bottom-color: #efefef ;
+    margin: 0 5%;
+   
 }
 .aboutp{ 
   font-weight: 400;
@@ -171,7 +178,7 @@
   color: #000F36;
   line-height: 31px;
   font-family: "Red Hat Text", sans-serif;
-  padding: 0 4%;
+  padding: 0 5%;
   
 }
  /* about metting section end  */
@@ -202,7 +209,7 @@
     line-height: 31px;
     color:#000f36;
     font-family: "Red Hat Text", sans-serif;
-    padding: 0 4%;
+    
 
  }
 
