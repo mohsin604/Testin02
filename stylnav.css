@@ -6,7 +6,7 @@
   nav{
     background-color:#EFEFEF;
     /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1); */
-    /* position: fixed; */
+    position: fixed;
     z-index: 1;
     width: 100%;
     height: 120px;
@@ -52,7 +52,7 @@
     right: 0;
     height: 100vh;
     width: 250px;
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: #EFEFEF;
     backdrop-filter: blur(12px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     list-style: none;
@@ -105,8 +105,7 @@ background-color: #000F36;
 .hideOnMobile.demo-dev1:hover demo-dev {
     display: block;
   }
-  .submenu.demo-dev {
-  }
+  
   .hideOnMobile.demo-dev1:hover .submenu.demo-dev {
     display: block;
     padding: 0px;
@@ -135,8 +134,7 @@ background-color: #000F36;
     .toglmenu.demo-dev1:hover demo-dev {
     display: block;
   }
-  .submenu.demo-dev {
-  }
+ 
   .toglmenu.demo-dev1:hover .submenu.demo-dev {
     display: block;
     padding: 0px;

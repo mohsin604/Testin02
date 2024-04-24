@@ -40,7 +40,7 @@
     font-family: "Red Hat Text", sans-serif;
     text-align: left;
    padding-right: 30%;
-    text-align: left;
+   
    
 }
 .lorem{
@@ -82,8 +82,7 @@
     line-height: 90px;
     color: #000F36;
     font-family: "Red HatText", sans-serif;
-    padding-left: 10%;
-    padding-right: 10%;
+    
   
 }
 .lorem2{
@@ -92,9 +91,7 @@
     line-height: 31px;
     color: #000F36;
     font-family: "Red Hat Text", sans-serif;
-    padding-left: 10%;
-    padding-right: 10%;
-    
+  
 }
 .read{
     font-weight: 400;
@@ -104,8 +101,8 @@
     text-decoration: underline;
     text-decoration-color:#2CA438 ;
     font-family: "Red Hat Text", sans-serif;
-    padding-left: 10%;
     padding-top: 10%;
+    
 }
 .read:hover{
     color: #2CA438;
@@ -147,12 +144,12 @@
 
 }
 /* training now end section */
- .main2{
+ /* .main2{
     padding-left: 7%;
     padding-right: 7%;
     padding-top: 5%;
- }
- .main3
+ } */
+ 
 /* about meeting section css */
 .about{
     font-size: 54px;
@@ -174,6 +171,7 @@
   color: #000F36;
   line-height: 31px;
   font-family: "Red Hat Text", sans-serif;
+  padding: 0 4%;
   
 }
  /* about metting section end  */
@@ -204,6 +202,7 @@
     line-height: 31px;
     color:#000f36;
     font-family: "Red Hat Text", sans-serif;
+    padding: 0 4%;
 
  }
 
@@ -222,7 +221,7 @@
     color: #2CA438;
     text-decoration: underline;
     text-decoration-color:#2CA438;
-    padding-top: 5%;
+    /* padding-top: 5%; */
     font-family: "Red Hat Text", sans-serif;
 }
 .read2:hover{
